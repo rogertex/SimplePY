@@ -6,4 +6,4 @@
 
 
 import sys
-print('hello git')
+# print('hello git')
