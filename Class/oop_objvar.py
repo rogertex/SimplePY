@@ -6,5 +6,4 @@
 
 
 import sys
-# print('hello git')
-print('rogertex')
+print('hello git')
