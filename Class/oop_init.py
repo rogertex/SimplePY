@@ -6,10 +6,12 @@
 
 
 class Person:
-    def __init__(self, name):
-        self.name = name
+    def __init__(self, name, question):
+        self.roger = name
+        self.question = question
     def say_hello(self):
-        print('he name is :', self.name)
+        print('he name is :', self.roger, self.question)
 
-p = Person('娜扎')
+p = Person('娜扎',['老板','colleague'])
 print(p.say_hello())
+
